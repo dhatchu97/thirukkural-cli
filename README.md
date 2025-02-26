@@ -15,36 +15,12 @@ A simple command-line tool that displays a random Thirukkural along with its exp
 ```sh
 git clone https://github.com/dhatchu97/thirukkural-cli.git
 cd thirukkural-cli
-Install Dependencies
-Ensure you have Python installed. If required, install dependencies (if any):
-
-sh
-Copy
-Edit
+```
 pip install -r requirements.txt
-Usage
-Run the script without any arguments to get a random Thirukkural:
+Options
+Random Thirukkural: By default, the tool displays a random Thirukkural.
 
-sh
-Copy
-Edit
-python3 kural.py
-Use flags to get specific details:
+Explanation: Add the -e or --explanation flag to display the explanation in English.
 
-sh
-Copy
-Edit
-python3 kural.py -e   # Show explanation in English
-python3 kural.py -p   # Show porul (meaning) in Tamil
-python3 kural.py -t   # Show transliteration
-Example Output
-Default Usage:
-sh
-Copy
-Edit
-┌──(kali㉿kali)-[~/tools/mytools/kural]
-└─$ python3 kural.py
 
-Thirukkural #131:
-ஒழுக்கம் விழுப்பந் தரலான ஒழுக்கம்
-உயர்நலம் ஓம்பப் படும்.
+If you find this tool useful, consider giving it a ⭐️ on GitHub! For any issues or feature requests, please open an issue on the GitHub repository.
